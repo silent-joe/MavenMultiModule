@@ -1,0 +1,6 @@
+/home/v1/workspace/main/domain/src/main/java/ua/com/webalbum/entity/Catalog.java
+/home/v1/workspace/main/domain/src/main/java/ua/com/webalbum/entity/Foto.java
+/home/v1/workspace/main/domain/src/main/java/ua/com/webalbum/repository/AlbumRepository.java
+/home/v1/workspace/main/domain/src/main/java/ua/com/webalbum/entity/Album.java
+/home/v1/workspace/main/domain/src/main/java/ua/com/webalbum/repository/FotoRepository.java
+/home/v1/workspace/main/domain/src/main/java/ua/com/webalbum/repository/CatalogRepository.java

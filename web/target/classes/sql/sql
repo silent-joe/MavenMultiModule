@@ -1,0 +1,15 @@
+BEGIN TRANSACTION;
+CREATE TABLE album (id INTEGER PRIMARY KEY, id_catalog NUMERIC, name TEXT);
+INSERT INTO album VALUES(1,1,'super-moto');
+INSERT INTO album VALUES(2,1,'just-moto');
+INSERT INTO album VALUES(3,2,'super-avto');
+INSERT INTO album VALUES(4,2,'just-avto');
+CREATE TABLE catalog (id INTEGER PRIMARY KEY, name TEXT);
+INSERT INTO catalog VALUES(1,'moto');
+INSERT INTO catalog VALUES(2,'avto');
+CREATE TABLE foto (name TEXT, id INTEGER PRIMARY KEY, id_album NUMERIC);
+INSERT INTO foto VALUES(11,1,1);
+INSERT INTO foto VALUES(22,2,2);
+INSERT INTO foto VALUES(33,3,3);
+INSERT INTO foto VALUES(44,4,4);
+COMMIT;
