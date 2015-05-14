@@ -1,0 +1,4 @@
+ua/com/webalbum/controller/AppController.class
+ua/com/webalbum/configuration/HibernateConfiguration.class
+ua/com/webalbum/configuration/AppConfig.class
+ua/com/webalbum/configuration/AppInitializer.class
