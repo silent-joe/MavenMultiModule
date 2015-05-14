@@ -14,6 +14,8 @@
 
 	<properties>
 		<spring>4.1.6.RELEASE</spring>
+		<junit.version>4.11</junit.version>
+		<slf4j>1.7.12</slf4j>
 	</properties>
 
 	<dependencies>
@@ -23,53 +25,31 @@
 			<artifactId>domain</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>${spring}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
+			<artifactId>spring-test</artifactId>
 			<version>${spring}</version>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>${spring}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>${spring}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
-			<version>${spring}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>${spring}</version>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.12</version>
+			<version>${slf4j}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.6.1</version>
+			<version>${slf4j}</version>
 		</dependency>
 
 	</dependencies>

@@ -13,18 +13,12 @@
 	<description>domain</description>
 
 	<properties>
-		<spring.data>1.3.4.RELEASE</spring.data>
 		<hb.manager>4.2.5.Final</hb.manager>
+		<spring.data>1.8.0.RELEASE</spring.data>
 		<javax.validation>1.1.0.Final</javax.validation>
 	</properties>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>${javax.validation}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -38,7 +32,12 @@
 			<version>${spring.data}</version>
 		</dependency>
 
-	</dependencies>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>${javax.validation}</version>
+		</dependency>
 
+	</dependencies>
 
 </project>

@@ -37,8 +37,8 @@ public class Album {
 	private String name;
 	
 	@NotNull
-    @Column(name = "ID_CATALOG")
-    private int idCatalog;
+	@Column(name = "ID_CATALOG")
+	private int idCatalog;
 
 	@ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
 	@JoinColumn(name = "ID_CATALOG", nullable = false, insertable = false, updatable = false)
